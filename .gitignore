@@ -25,6 +25,7 @@ gen/
 
 # Local configuration file (sdk path, etc)
 local.properties
+app/src/main/res/values/api_keys.xml
 
 # Secure keystore settings
 

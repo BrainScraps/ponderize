@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity
     // Enable Local Datastore.
     Parse.enableLocalDatastore(this);
 
-    Parse.initialize(this, "", "");
+    Parse.initialize(this, getString(R.string.parse_one) ,getString(R.string.parse_two));
 
     FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
     fab.setOnClickListener(new View.OnClickListener() {
